@@ -1,0 +1,253 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  min-height: 100vh;
+}
+.container {
+  width: 980px;
+  height: 1500px;
+  margin: 0 auto;
+  border: solid 10px black;
+  padding-left: 100px;
+  margin-top: 35px;
+  margin-left: 40px;
+  background: url('./assets/image/410676730_921491319066669_9137820393882045051_n.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-image: url(https://inkythuatso.com/uploads/thumbnails/800/2022/05/hinh-nen-bau-troi-dem-day-sao-cho-dien-thoai-1-inkythuatso-30-11-45-38.jpg); */
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #333333;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding:-100px;
+  color: rgb(242, 250, 90);
+}
+.col {
+  /* border: solid 1px #ffffff; */
+  width: 380px;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10px;
+  background-color: rgb(94, 230, 235);
+  margin-left: 13px;
+}
+.Cel
+{
+  text-align: center;
+  margin-right:100px;
+}
+.Cel #chu{
+  font-size: 70px;
+  color: rgb(114, 255, 255);
+  font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+  text-shadow: 2px 6px rgb(45, 70, 185);
+}
+.timeline #timein{
+  color: rgb(248, 248, 248);
+  align-items: center;
+  font-size: 80px;
+  font-family: monospace;
+}
+.col h3 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(248, 248, 248);
+  margin:30px;
+}
+.col p {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(248, 248, 248);
+  font-family: monospace;
+}
+/* .col2 {
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+ 
+}
+.col2 h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #666666;
+}
+.col2 p {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+} */
+.time {
+  font-weight: bold;
+}
+.item{
+  display: flex;
+
+}
+.Header
+{
+  margin-top: 30px;
+  padding-top: 20px;
+  background-color: rgb(86, 187, 241, 0.5);
+  width: 850px;
+  height: 100px;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+ 
+}
+#tieude
+{
+
+  font-size: 34px;
+  text-align: center;
+  margin-left: 100px;
+}
+#icon1
+{
+  margin-top: 20px;
+  font-size: 40px;
+  margin-left: 70px;
+}
+#icon2
+{
+  margin-top: 20px;
+  font-size: 40px;
+  margin-left: 120px;
+}
+#icon3
+{
+  margin-top: 20px;
+  font-size: 40px;
+  margin-left: 150px;
+}
+#icon4
+{
+  font-size: 40px;
+  margin-left: 190px;
+}
+#icon5
+{
+  color: rgb(242, 250, 90);
+  font-size: 80px;
+  margin-left: 20px;
+}
+#icon6
+{
+  color: rgb(242, 250, 90);
+  font-size: 80px;
+  margin-left: 20px;
+}
+#icon7
+{
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+#chu
+{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.Main
+{
+  background: rgb(86, 187, 241, 0.3);
+  width: 850px;
+  height: 950px;
+  color: #0ff;
+  text-align: center;
+  font-size: 20px;
+}
+.Khung1
+{
+  margin-left: 180px;
+  display: flex;
+  color: rgb(242, 250, 90);
+  font-size: 25px;
+}
+.Khung2
+{
+  display: flex;
+  width: 800px;
+  height: 100px;
+  background-color: rgb(30, 49, 99);
+  margin-left: 20px;
+  border-radius: 10px;
+  /* border: solid 5px white; */
+  padding-top: 15px;
+  color: rgb(242, 250, 90);
+}
+#hinh
+{
+  margin-top: 10px;
+  margin-left: 250px;
+  width: 80px;
+  height: 70px;
+  margin-right: 30px;
+}
+
+.h{
+  margin-top: 50px;
+}
+.time{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+h3{
+  
+  font-size: 20px;
+}
+#nhietdo
+{
+font-size: 30px;
+margin-bottom:15px;
+align-items: center;
+}
+#doam
+{
+font-size: 30px;
+margin-bottom:15px;
+}
+button
+{
+  /* border-radius: 10px;
+  color: rgb(46, 79, 79); */
+  font-weight: 700;
+  font-size: 30px;
+  width: 200px;
+  height: 40px;
+  background: rgb(150, 239, 255);
+  color: rgb(15, 33, 103);
+  font-size: 25px;
+  border-radius: 10px;
+}
+button :hover{
+  color: rgb(86, 187, 241);
+  font-size: 1.5em;
+  /* background: transparent; */
+}
+.btn-success{
+  background: rgb(30, 49, 99);
+  color: rgb(248, 248, 248);
+}
+.nhapkhung1 h2{
+  color: rgb(248, 248, 248);
+
+}
+.nhapkhung2 h2{
+  color:rgb(248, 248, 248);
+
+}
